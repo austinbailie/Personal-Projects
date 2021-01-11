@@ -1,0 +1,12 @@
+
+platform :ios, ‘10.0’
+
+# Add the pods for the Firebase products you want to use in your app
+# For example, to use Firebase Authentication and Cloud Firestore
+
+target 'GarageDoorOpener' do
+
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+
+end
