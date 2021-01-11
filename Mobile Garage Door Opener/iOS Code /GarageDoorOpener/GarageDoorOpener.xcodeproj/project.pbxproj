@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090A46FB0DF78184533E23C8 /* libPods-GarageDoorOpener.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD2F8E8218F0E3B7A80FAE6 /* libPods-GarageDoorOpener.a */; };
+		D2534CBA2599376C00863781 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2534CB92599376C00863781 /* GoogleService-Info.plist */; };
+		D2534CDA25A8F2F700863781 /* RotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2534CD525A8F2F400863781 /* RotationAnimation.swift */; };
+		D2534CDB25A8F2F800863781 /* ProgressShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2534CD625A8F2F500863781 /* ProgressShapeLayer.swift */; };
+		D2534CDC25A8F2F800863781 /* StrokeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2534CD725A8F2F600863781 /* StrokeAnimation.swift */; };
+		D2534CDD25A8F2F800863781 /* StrokeColorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2534CD825A8F2F600863781 /* StrokeColorAnimation.swift */; };
+		D2534CDE25A8F2F800863781 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2534CD925A8F2F600863781 /* ProgressView.swift */; };
+		D2B3934C25968F5500446700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B3934B25968F5500446700 /* AppDelegate.swift */; };
+		D2B3934E25968F5500446700 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B3934D25968F5500446700 /* SceneDelegate.swift */; };
+		D2B3935025968F5500446700 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B3934F25968F5500446700 /* ViewController.swift */; };
+		D2B3935325968F5500446700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B3935125968F5500446700 /* Main.storyboard */; };
+		D2B3935525968F5900446700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B3935425968F5900446700 /* Assets.xcassets */; };
+		D2B3935825968F5900446700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B3935625968F5900446700 /* LaunchScreen.storyboard */; };
+		D2B393612596941000446700 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D2B393602596941000446700 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E46977DD8B9E2DDB6ABEC30 /* Pods-GarageDoorOpener.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarageDoorOpener.debug.xcconfig"; path = "Target Support Files/Pods-GarageDoorOpener/Pods-GarageDoorOpener.debug.xcconfig"; sourceTree = "<group>"; };
+		767E99667A9C6FF3EE47E340 /* Pods-GarageDoorOpener.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarageDoorOpener.release.xcconfig"; path = "Target Support Files/Pods-GarageDoorOpener/Pods-GarageDoorOpener.release.xcconfig"; sourceTree = "<group>"; };
+		BAD2F8E8218F0E3B7A80FAE6 /* libPods-GarageDoorOpener.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GarageDoorOpener.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2534CB92599376C00863781 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D2534CD525A8F2F400863781 /* RotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationAnimation.swift; sourceTree = "<group>"; };
+		D2534CD625A8F2F500863781 /* ProgressShapeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressShapeLayer.swift; sourceTree = "<group>"; };
+		D2534CD725A8F2F600863781 /* StrokeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeAnimation.swift; sourceTree = "<group>"; };
+		D2534CD825A8F2F600863781 /* StrokeColorAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeColorAnimation.swift; sourceTree = "<group>"; };
+		D2534CD925A8F2F600863781 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		D2B3934825968F5500446700 /* GarageDoorOpener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GarageDoorOpener.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B3934B25968F5500446700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2B3934D25968F5500446700 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D2B3934F25968F5500446700 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2B3935225968F5500446700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2B3935425968F5900446700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2B3935725968F5900446700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2B3935925968F5900446700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B393602596941000446700 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2B3934525968F5500446700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090A46FB0DF78184533E23C8 /* libPods-GarageDoorOpener.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032A16D6BB370B00E543A851 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E46977DD8B9E2DDB6ABEC30 /* Pods-GarageDoorOpener.debug.xcconfig */,
+				767E99667A9C6FF3EE47E340 /* Pods-GarageDoorOpener.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7819E590DCC48AF5C27465BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAD2F8E8218F0E3B7A80FAE6 /* libPods-GarageDoorOpener.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2B3933F25968F5500446700 = {
+			isa = PBXGroup;
+			children = (
+				D2B393602596941000446700 /* Podfile */,
+				D2B3934A25968F5500446700 /* GarageDoorOpener */,
+				D2B3934925968F5500446700 /* Products */,
+				032A16D6BB370B00E543A851 /* Pods */,
+				7819E590DCC48AF5C27465BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2B3934925968F5500446700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2B3934825968F5500446700 /* GarageDoorOpener.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2B3934A25968F5500446700 /* GarageDoorOpener */ = {
+			isa = PBXGroup;
+			children = (
+				D2B3934B25968F5500446700 /* AppDelegate.swift */,
+				D2B3934D25968F5500446700 /* SceneDelegate.swift */,
+				D2B3934F25968F5500446700 /* ViewController.swift */,
+				D2534CD625A8F2F500863781 /* ProgressShapeLayer.swift */,
+				D2534CD925A8F2F600863781 /* ProgressView.swift */,
+				D2534CD525A8F2F400863781 /* RotationAnimation.swift */,
+				D2534CD725A8F2F600863781 /* StrokeAnimation.swift */,
+				D2534CD825A8F2F600863781 /* StrokeColorAnimation.swift */,
+				D2B3935125968F5500446700 /* Main.storyboard */,
+				D2B3935425968F5900446700 /* Assets.xcassets */,
+				D2B3935625968F5900446700 /* LaunchScreen.storyboard */,
+				D2B3935925968F5900446700 /* Info.plist */,
+				D2534CB92599376C00863781 /* GoogleService-Info.plist */,
+			);
+			path = GarageDoorOpener;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2B3934725968F5500446700 /* GarageDoorOpener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B3935C25968F5900446700 /* Build configuration list for PBXNativeTarget "GarageDoorOpener" */;
+			buildPhases = (
+				31ED3CBEAA5DBA99863A4649 /* [CP] Check Pods Manifest.lock */,
+				D2B3934425968F5500446700 /* Sources */,
+				D2B3934525968F5500446700 /* Frameworks */,
+				D2B3934625968F5500446700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GarageDoorOpener;
+			productName = GarageDoorOpener;
+			productReference = D2B3934825968F5500446700 /* GarageDoorOpener.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2B3934025968F5500446700 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D2B3934725968F5500446700 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = D2B3934325968F5500446700 /* Build configuration list for PBXProject "GarageDoorOpener" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2B3933F25968F5500446700;
+			productRefGroup = D2B3934925968F5500446700 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2B3934725968F5500446700 /* GarageDoorOpener */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2B3934625968F5500446700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B3935825968F5900446700 /* LaunchScreen.storyboard in Resources */,
+				D2B3935525968F5900446700 /* Assets.xcassets in Resources */,
+				D2534CBA2599376C00863781 /* GoogleService-Info.plist in Resources */,
+				D2B3935325968F5500446700 /* Main.storyboard in Resources */,
+				D2B393612596941000446700 /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31ED3CBEAA5DBA99863A4649 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GarageDoorOpener-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2B3934425968F5500446700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2534CDC25A8F2F800863781 /* StrokeAnimation.swift in Sources */,
+				D2B3935025968F5500446700 /* ViewController.swift in Sources */,
+				D2534CDD25A8F2F800863781 /* StrokeColorAnimation.swift in Sources */,
+				D2B3934C25968F5500446700 /* AppDelegate.swift in Sources */,
+				D2534CDB25A8F2F800863781 /* ProgressShapeLayer.swift in Sources */,
+				D2534CDE25A8F2F800863781 /* ProgressView.swift in Sources */,
+				D2534CDA25A8F2F700863781 /* RotationAnimation.swift in Sources */,
+				D2B3934E25968F5500446700 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2B3935125968F5500446700 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B3935225968F5500446700 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2B3935625968F5900446700 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B3935725968F5900446700 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2B3935A25968F5900446700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2B3935B25968F5900446700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2B3935D25968F5900446700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E46977DD8B9E2DDB6ABEC30 /* Pods-GarageDoorOpener.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55B2D2GREU;
+				INFOPLIST_FILE = GarageDoorOpener/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abailie.GarageDoorOpener;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2B3935E25968F5900446700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767E99667A9C6FF3EE47E340 /* Pods-GarageDoorOpener.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55B2D2GREU;
+				INFOPLIST_FILE = GarageDoorOpener/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abailie.GarageDoorOpener;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2B3934325968F5500446700 /* Build configuration list for PBXProject "GarageDoorOpener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B3935A25968F5900446700 /* Debug */,
+				D2B3935B25968F5900446700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B3935C25968F5900446700 /* Build configuration list for PBXNativeTarget "GarageDoorOpener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B3935D25968F5900446700 /* Debug */,
+				D2B3935E25968F5900446700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2B3934025968F5500446700 /* Project object */;
+}
